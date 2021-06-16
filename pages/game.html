@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Викторина</title>
+</head>
+<body>
+    
+
+    <div class="background opacity">
+        <div class="main_container">
+            <h1 id="question">Мне лень придумать вопрос</h1>
+            <hr>
+            <ul class="answers_list">
+                <li class="answers">
+                    <label>
+                        <input type="radio" name="answer" class="radio_input" id="A">
+                        <span class="answer_text" id="varA">"nj"</span> 
+                    </label>
+                </li>
+                <li class="answers">
+                    <label>
+                        <input type="radio" name="answer" class="radio_input" id="B">
+                        <span class="answer_text" id="varB">"TRnj"</span> 
+                    </label>
+                </li>
+                <li class="answers">
+                    <label>
+                        <input type="radio" name="answer" class="radio_input" id="C">
+                        <span class="answer_text" id="varC">"nj"</span> 
+                    </label>
+                </li>
+                <li class="answers">
+                    <label>
+                        <input type="radio" name="answer" class="radio_input" id="D">
+                        <span class="answer_text" id="varD">"nj"</span> 
+                    </label>
+                </li>
+            </ul>
+            <button class="next_btn small_next_bth" id="check_btn" disabled>Выбрать</button>
+        </div>
+
+        <div class="additional_cont">
+            <h2>Выигрыш:</h2>
+            <div class="points"><span class="points_value" id='prize_sum'>0</span></div>
+            <div class="help">
+                <button class="lifeline phone_friend"><img src="../img/phone.png" alt=""></button>
+                <button class="lifeline fifty_fifty"><img src="../img/fifty.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <h1 id='modal_text'></h1>
+        <hr>
+        <button id='modal_btn' class='next_btn'></button>
+        <button id='modal_close_btn' class='next_btn'></button>
+    </div>
+    <script src='../scripts/data.js'></script>
+    <script src="../scripts/game.js"></script>
+</body>
+</html>
