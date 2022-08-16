@@ -9,7 +9,7 @@ The game was created as a part of web development course.
 * During the game player can use lifelines (each only once): 
   - 50:50 (Fifty-Fifty): the game eliminates two wrong answers from the current question
   - Phone a Friend: the game imitates a call to a friend and gives some random answer to a player
-* When player finishes the game he sees the total ammount of points
+* When player finishes the game he sees the total amount of points
 
 ## Interface
 <img width="1440" alt="start" src="https://user-images.githubusercontent.com/80287777/178300135-f8d65662-8fc8-4e40-939e-7f6e81dbaf6f.png">
